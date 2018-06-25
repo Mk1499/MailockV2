@@ -18,7 +18,7 @@ color : #fcf8e3 ;
   
 }
 .navbar-inverse .navbar-brand{
-  color: #333 ; 
+  color: #fcf8e3; 
   font-size: 3rem ; 
  
 }
@@ -38,7 +38,7 @@ nav{
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   background: transparent ; 
   border-bottom: 2px #fcf8e3  solid ;
-  color: #333
+  color: #fcf8e3
 }
 
 
@@ -53,4 +53,11 @@ nav{
   background: rgba(0,0,0,0.5)  ; 
   padding-top: 15%
   }
+
+.index button {
+ 
+  height: 12%;
+ font-size: 2rem;
+ margin-top: 4%; 
+}
   
