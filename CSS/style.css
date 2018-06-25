@@ -44,7 +44,7 @@ nav{
 
 /* Index */ 
 .index{
-  background: url(../img/background.jpg) ; 
+  background: url(../img/background.jpg) no-repeat fixed; 
   color: #fcf8e3  ; 
   height: 100%;}
 
@@ -55,8 +55,7 @@ nav{
   }
 
 .index button {
- 
-  height: 12%;
+  height: 12vw;
  font-size: 2rem;
  margin-top: 4%; 
 }
