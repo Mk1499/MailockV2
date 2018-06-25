@@ -8,8 +8,11 @@ nav.navbar.navbar-inverse.navbar-fixed-top{
   position: relative;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+color : #fcf8e3 ; 
+}
 .navbar-inverse {
-  background-color: #fff ;
+  background-color: #d43f3a ;
   border-color: transparent ; 
   font-size: 2rem ; 
   
@@ -24,7 +27,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top{
 }
 
 .navbar-nav button a{
-  color: #fff
+  color: #fcf8e3 
 }
 a.navbar-brand img {
   width: 20%;
@@ -34,7 +37,7 @@ nav{
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   background: transparent ; 
-  border-bottom: 2px #fff solid ;
+  border-bottom: 2px #fcf8e3  solid ;
   color: #333
 }
 
@@ -42,7 +45,7 @@ nav{
 /* Index */ 
 .index{
   background: url(../img/background.jpg) ; 
-  color: #eee ; 
+  color: #fcf8e3  ; 
   height: 100%;}
 
   .Shadow{
