@@ -22,6 +22,9 @@ color : #fcf8e3 ;
   font-size: 3rem ; 
  
 }
+.navbar-inverse .navbar-brand:hover{
+  color: #333
+}
 .navbar-inverse .navbar-brand i {
   padding-right: 1rem
 }
@@ -55,8 +58,8 @@ nav{
   }
 
 .index button {
-  height: 12vw;
- font-size: 2rem;
+  height: 7vw;
+ font-size: 3rem;
  margin-top: 4%; 
 }
   
