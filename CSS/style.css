@@ -14,19 +14,19 @@ color : #fcf8e3 ;
 .navbar-inverse {
   background-color: #d43f3a ;
   border-color: transparent ; 
-  font-size: 2rem ; 
+  font-size: 2vw ; 
   
 }
 .navbar-inverse .navbar-brand{
   color: #fcf8e3; 
-  font-size: 3rem ; 
+  font-size: 2vw ; 
  
 }
 .navbar-inverse .navbar-brand:hover{
   color: #333
 }
 .navbar-inverse .navbar-brand i {
-  padding-right: 1rem
+  padding-right: 1vw
 }
 
 .navbar-nav button a{
@@ -59,7 +59,7 @@ nav{
 
 .index button {
   height: 7vw;
- font-size: 3rem;
+ font-size: 3vw;
  margin-top: 4%; 
 }
   
