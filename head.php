@@ -30,7 +30,7 @@
               <span class="icon-bar"></span>
       </button>
      
-          <a class="navbar-brand" href="#"><i class="fa fa-envelope"></i><span>MaiLock</span></a> 
+          <a class="navbar-brand" href="index.php"><i class="fa fa-envelope"></i><span>MaiLock</span></a> 
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,7 +38,7 @@
       
         <ul class="nav navbar-nav navbar-right">
         
-            <li class="active"><a href="#">Sign In <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="signin.php">Sign In <span class="sr-only">(current)</span></a></li>
         
             <li><a href="#">   <?php 
             
