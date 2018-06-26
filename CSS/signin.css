@@ -2,7 +2,14 @@
     background: url("../img/background.jpg") ; 
     color: #fcf8e3 
 }
-
+.signIn label{
+    font-size: 2rem
+}
 .signIn form {
     margin-left: 25% 
+}
+.signIn input{
+    background: transparent ; 
+    width: 60%
+
 }
