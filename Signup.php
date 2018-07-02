@@ -14,7 +14,7 @@ include ('PHPCode/head.php');
 <div id="register" class="tab-pane">
         <div class="login-inner">
              <div class="title">
-                 <h1>Welcome <span>back!</span></h1>
+                 <h1>Join to our <span>Family!</span></h1>
              </div>
              <div class="login-form">
                  <form method = "POST" action =' ' >
