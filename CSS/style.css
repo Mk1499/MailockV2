@@ -2,10 +2,19 @@
 /* Head */ 
 
 /* navbar */ 
+
 nav.navbar.navbar-inverse.navbar-fixed-top {
-  height: auto ; 
+  height: 10vh ; 
   z-index: 0;
   position: relative;
+}
+
+.navbar-right{
+  padding-top: 1vh
+}
+
+ul.nav.navbar-nav.navbar-right {
+  background: #d43f3a;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -15,11 +24,12 @@ color : #fcf8e3 ;
   background-color: #d43f3a ;
   border-color: transparent ; 
   font-size: 2vw ; 
+  padding-top : 2px
   
 }
 .navbar-inverse .navbar-brand{
   color: #fcf8e3; 
-  font-size: 2vw ; 
+  font-size: 3vw ; 
  
 }
 .navbar-inverse .navbar-brand:hover{
@@ -36,7 +46,9 @@ a.navbar-brand img {
   width: 20%;
 }
 nav{
-  margin-bottom: 0 !important
+  margin-bottom: 0 !important ; 
+  box-shadow: 0 2px 8px #d2d2d2 ; 
+
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   background: transparent ; 
@@ -44,9 +56,25 @@ nav{
   color: #fcf8e3
 }
 
+@media(max-width:767px){
+  .navbar-inverse{
+    font-size: 3vw
+  }
+}
+/* sidebar */ 
+
+.panel-default > .panel-heading {
+  background-color: #d43f3a;
+  color: #fff; }
+  .panel-default a {
+    color: #d43f3a ;
+  }
+
+.panel-body {
+  color: #333; }
 
 /* Index */ 
-.index{
+.index {
   background: url(../img/background.jpg) no-repeat fixed; 
   color: #fcf8e3  ; 
   height: 100%;}
@@ -63,3 +91,6 @@ nav{
  margin-top: 4%; 
 }
   
+.index .name { 
+  color : #d43f3a; 
+}
