@@ -46,7 +46,7 @@ if (isset ($_POST['submit']) and !empty($_POST['username']) and !empty($_POST['p
                         $auth = 1 ; 
 
                     
-                    header("Location:index.php") ;
+                    header("Location:inbox.php") ;
                     }
                    
                     
