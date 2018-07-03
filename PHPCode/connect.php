@@ -5,9 +5,9 @@ $host ='127.0.0.1'  ;
 $dbuser= 'root';
 $dbpass = ''; */
 $dbname = 'mohamedkhaled14';
-$host ='aba.ae'  ;
+$host ='mysql.aba.ae'  ;
 $dbuser= 'mohamedkhaled14';
-$dbpass = 'Mailock2018'; 
+$dbpass = '22823910mK15'; 
 $conn = new mysqli($host , $dbuser , $dbpass , $dbname ) ; 
 
 // Check connection 
