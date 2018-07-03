@@ -4,10 +4,10 @@ session_start() ;
 $host ='127.0.0.1'  ;
 $dbuser= 'root';
 $dbpass = ''; */
-$dbname = 'mailock';
-$host ='db4free.net'  ;
-$dbuser= 'mkhaled';
-$dbpass = '22823910mk14'; 
+$dbname = 'mohamedkhaled14';
+$host ='mysql.aba.ae'  ;
+$dbuser= 'mohamedkhaled14';
+$dbpass = 'Mailock2018'; 
 $conn = new mysqli($host , $dbuser , $dbpass , $dbname ) ; 
 
 // Check connection 
